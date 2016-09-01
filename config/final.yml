@@ -1,5 +1,5 @@
 ---
-final_name: bits-service
+final_name: etc-hosts
 blobstore:
   provider: s3
   options:
