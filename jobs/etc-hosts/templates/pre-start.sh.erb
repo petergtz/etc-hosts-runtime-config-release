@@ -1,0 +1,5 @@
+#!/bin/bash
+
+<% p('etc-hosts').each do |host| %>
+sudo echo "<%= host %>" >> /etc/hosts
+<% end %>

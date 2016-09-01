@@ -1,0 +1,11 @@
+---
+name: etc-hosts
+
+templates:
+  pre-start.sh.erb: bin/pre-start
+
+properties:
+  etc-hosts:
+    description: array of TODO
+    default: bla
+    
