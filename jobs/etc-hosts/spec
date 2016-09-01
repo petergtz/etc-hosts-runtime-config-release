@@ -6,6 +6,4 @@ templates:
 
 properties:
   etc-hosts:
-    description: array of TODO
-    default: bla
-    
+    description: List of entries as they should appear in /etc/hosts
